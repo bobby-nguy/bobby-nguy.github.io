@@ -12,7 +12,7 @@ Customer Lifetime Value is an important marketing metric that helps companies un
 This notebook aims to illustrate the process of data discovery, where we identified data issues such as missing values, outliers, non-standard transactions, and preliminary analyses on customer retention and cohort.
 
 ### LTV Prediction
-[![](https://img.shields.io/badge/Jupyter-open_notebook-blue?logo=%23F37626)](https://bobby-nguy.github.io/notebooks/LTVExploratoryAnalysis.html)
+[![](https://img.shields.io/badge/Jupyter-open_notebook-blue?logo=%23F37626)](https://bobby-nguy.github.io/notebooks/LTVPredictions.html)
 
 This notebook aims to illustrate the process of feature processing and model development, where we utilized scikit-learn's pipeline capabilities to organize our pipeline. We engineered multiple numeric, categorical and text features, including featurizing invoice descriptions using Glove embedding vectors.
 
