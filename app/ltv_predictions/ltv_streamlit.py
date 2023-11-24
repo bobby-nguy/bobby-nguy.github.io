@@ -1,9 +1,12 @@
+import os
 import streamlit as st
 import pandas as pd
 import joblib
 from glove_transformer import GloveVectorTransformer
 
-loaded_pipeline = joblib.load('ltv_predictions_pipeline.pkl')
+path = os.path.dirname(__file__)
+model_file = path+'ltv_predictions_pipeline.pkl'
+loaded_pipeline = joblib.load(model_file)
 
 left_column, right_column = st.columns(2, gap="large")
 with st.sidebar:
