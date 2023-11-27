@@ -2,13 +2,13 @@
 
 ---
 
-### Estimating Customer Lifetime Value
+## Estimating Customer Lifetime Value
 
 Customer Lifetime Value is an important marketing metric that helps companies understand the total worth of a customer over its relationship with the business, and helps inform customer acquisition and retention strategies. 
 
 <img src="images/ltv_predictions_page.png?raw=true"/>
 
-#### Exploratory Analysis
+### Exploratory Analysis
 [![](https://img.shields.io/badge/Jupyter-open_notebook-blue?logo=jupyter)](https://bobby-nguy.github.io/notebooks/LTVExploratoryAnalysis.html)
 
 This notebook aims to illustrate the process of data discovery, where we identified data issues such as missing values, outliers, non-standard transactions, and preliminary analyses on customer retention and cohort.
